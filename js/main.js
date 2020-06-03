@@ -1,6 +1,4 @@
-alert('Let’s make a story together!');
-
-var generate = function() {
+var generate = function () {
 
   var col = prompt('A colour (orange, indigo, etc.)');
 
@@ -24,5 +22,7 @@ var generate = function() {
     document.write('Jackson chose his ' + adj + ', ' + col + ' ' + cre + ' card and ' + verb + ' it to the table knowing he won.');
   }
 };
+
+alert('Let’s make a story together!');
 
 generate();

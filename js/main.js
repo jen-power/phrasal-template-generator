@@ -11,15 +11,15 @@ var generate = function () {
   var story = prompt('Which story would you like? \n a) Snacking \n b) Escaping \n c) Winning \n\n Enter the letter below:');
 
   if (story == 'a') {
-    document.write('After snacking on ' + adj + ' treats, the ' + col + ' bellied ' + cre + ' ' + verb + ' for hours.');
+    document.write(`After snacking on ${adj} treats, the ${col} bellied ${cre} ${verb} for hours.`);
   }
 
   if (story == 'b') {
-    document.write('Amelia ' + verb + ' through the ' + adj + ' ' + col + ' nebula escaping the space ' + cre + '.');
+    document.write(`Amelia ${verb} through the ${adj} ${col} nebula escaping the space ${cre}.`);
   }
 
   if (story == 'c') {
-    document.write('Jackson chose his ' + adj + ', ' + col + ' ' + cre + ' card and ' + verb + ' it to the table knowing he won.');
+    document.write(`Jackson chose his ${adj} ${col} ${cre} card and ${verb} it to the table knowing he won.`);
   }
 };
 
